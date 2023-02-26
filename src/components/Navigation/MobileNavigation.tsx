@@ -31,7 +31,7 @@ export const MobileNavigation = ({ toggleTheme, theme }: TMobileNavProps) => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
             exit={{ opacity: 0 }}
-            className="absolute w-full h-full bg-[#000]/[0.6] flex justify-end"
+            className="z-50 absolute w-full h-full bg-[#000]/[0.6] flex justify-end"
           >
             <motion.div
               initial={{ opacity: 0, width: 0 }}
