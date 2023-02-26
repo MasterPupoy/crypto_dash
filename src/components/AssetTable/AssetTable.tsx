@@ -3,7 +3,7 @@ import type { TData } from "../../dataset/data";
 
 export const AssetTable = () => {
   return (
-    <div className="h-full dark:bg-transparent md:shadow-none  rounded-lg lg:w-[300px] xl:w-[600px] w-full  p-2 flex flex-col gap-3">
+    <div className="h-full dark:bg-transparent md:shadow-none  rounded-lg lg:w-[300px] xl:w-[600px] w-full flex flex-col gap-3">
       {data.map((r: TData) => {
         return (
           <div
