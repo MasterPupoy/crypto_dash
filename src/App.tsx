@@ -1,7 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 import { Dashboard } from "./components/Dashboard";
-import { Navigation } from "./components/Navigation";
+import { Navigation } from "./components/Navigation/Navigation";
 
 function App() {
   return (
