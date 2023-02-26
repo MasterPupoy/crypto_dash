@@ -1,0 +1,47 @@
+[
+  {
+    "asset": "BTC",
+    "coin": "Bitcoin",
+    "amount": "1,543",
+    "dollar_amount": "10,512",
+    "realized_pnl": "9,001",
+    "unrealized_pnl": "11,314",
+    "total_pnl": "20,315"
+  },
+  {
+    "asset": "AUR",
+    "coin": "Auroracoin",
+    "amount": "1,543",
+    "dollar_amount": "10,512",
+    "realized_pnl": "9,001",
+    "unrealized_pnl": "11,314",
+    "total_pnl": "20,315"
+  },
+  {
+    "asset": "BCH",
+    "coin": "Bitcoin Cash",
+    "amount": "1,543",
+    "dollar_amount": "10,512",
+    "realized_pnl": "9,001",
+    "unrealized_pnl": "11,314",
+    "total_pnl": "20,315"
+  },
+  {
+    "asset": "XDG",
+    "coin": "Dogecoin",
+    "amount": "1,543",
+    "dollar_amount": "10,512",
+    "realized_pnl": "9,001",
+    "unrealized_pnl": "11,314",
+    "total_pnl": "20,315"
+  },
+  {
+    "asset": "ETH",
+    "coin": "Ethereum",
+    "amount": "1,543",
+    "dollar_amount": "10,512",
+    "realized_pnl": "9,001",
+    "unrealized_pnl": "11,314",
+    "total_pnl": "20,315"
+  }
+]

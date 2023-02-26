@@ -1,9 +1,12 @@
+import { useState } from "react";
 import "./App.css";
 import { Dashboard } from "./components/Dashboard";
+import { Navigation } from "./components/Navigation";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-1 ">
+    <div className="flex flex-row flex-1 min-h-screen">
+      <Navigation />
       <Dashboard />
     </div>
   );
