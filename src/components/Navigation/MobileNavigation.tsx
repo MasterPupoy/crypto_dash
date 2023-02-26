@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Coin, Menu2, X } from "tabler-icons-react";
+import { Coin, Menu2, Moon, RubberStamp, Sun, X } from "tabler-icons-react";
 import { NavItems } from "./NavItems";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -13,13 +13,13 @@ export const MobileNavigation = ({ toggleTheme, theme }: TMobileNavProps) => {
 
   return (
     <>
-      <div className="z-50 items-center h-17 justify-between w-full absolute bg-[#0E153A] md:hidden flex flex-row ">
+      <div className="z-50 px-3 items-center h-17 justify-between w-full absolute bg-[#0E153A] md:hidden flex flex-row ">
+        <div>
+          <RubberStamp size={35} />
+        </div>
         <div>
           <Coin size={50} />
         </div>
-        <button className="button" onClick={() => toggleTheme()}>
-          {theme}
-        </button>
         <div onClick={() => setMobileNav(true)} className="cursor-pointer">
           <Menu2 size={40} />
         </div>
@@ -40,7 +40,14 @@ export const MobileNavigation = ({ toggleTheme, theme }: TMobileNavProps) => {
               exit={{ width: 0 }}
               className="p-5 h-full bg-[#0E153A] flex gap-10 flex-col"
             >
-              <div className="self-end">
+              <div className="self-end flex flex-row justify-between w-full">
+                <button
+                  className="button flex flex-row gap-2"
+                  onClick={() => toggleTheme()}
+                >
+                  {theme !== "dark" ? <Sun /> : <Moon />}
+                  {theme !== "dark" ? "Light mode" : "Dark mode"}
+                </button>
                 <X
                   size={40}
                   className="cursor-pointer"

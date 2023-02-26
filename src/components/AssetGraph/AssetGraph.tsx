@@ -9,7 +9,7 @@ export const AssetGraph = () => {
   );
 
   return (
-    <div className="flex flex-col items-center grow  lg:grow md:w-full xl:w-[400px] h-fit xl:h-fit 2xl:h-full dark:bg-transparent  bg-white shadow-md rounded-lg">
+    <div className="flex flex-col items-center grow  lg:grow md:w-full xl:w-[400px] h-fit xl:h-fit 2xl:h-full dark:bg-transparent shadow-md d bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100">
       <Treemap />
       <div className="flex flex-col self-start gap-12 py-5">
         <div className=" px-5 flex flex-col items-start">

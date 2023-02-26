@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowLeft, ArrowRight, Coin } from "tabler-icons-react";
+import { ArrowLeft, ArrowRight, Coin, Moon, Sun } from "tabler-icons-react";
 import { MobileNavigation } from "./MobileNavigation";
 import { NavItems } from "./NavItems";
 
@@ -34,7 +34,7 @@ export const Navigation = () => {
       >
         <div
           onClick={() => setToggleSidebar((prev) => !prev)}
-          className="cursor-pointer self-end"
+          className="cursor-pointer self-end "
         >
           {toggleSidebar ? <ArrowLeft /> : <ArrowRight />}
         </div>
@@ -44,6 +44,16 @@ export const Navigation = () => {
           </div>
         </div>
         <NavItems toggleSidebar={toggleSidebar} />
+        <button
+          className="hidden md:flex relative top-20 button flex-row gap-2"
+          onClick={() => toggleTheme()}
+          style={{
+            visibility: !toggleSidebar ? "hidden" : "visible",
+          }}
+        >
+          {theme !== "dark" ? <Sun /> : <Moon />}
+          {theme !== "dark" ? "Light mode" : "Dark mode"}
+        </button>
       </div>
     </nav>
   );
