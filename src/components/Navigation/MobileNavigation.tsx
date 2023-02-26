@@ -13,7 +13,7 @@ export const MobileNavigation = ({ toggleTheme, theme }: TMobileNavProps) => {
 
   return (
     <>
-      <div className=" items-center h-17 justify-between w-full absolute bg-[#0E153A] md:hidden flex flex-row ">
+      <div className="z-50 items-center h-17 justify-between w-full absolute bg-[#0E153A] md:hidden flex flex-row ">
         <div>
           <Coin size={50} />
         </div>

@@ -26,7 +26,7 @@ export const Navigation = () => {
     <nav>
       <MobileNavigation toggleTheme={toggleTheme} theme={theme} />
       <div
-        className="hidden  bg-[#0E153A] md:flex min-h-screen flex-col gap-1 p-5 shadow-md"
+        className="hidden  bg-[#0E153A] md:flex min-h-screen h-full flex-col gap-1 p-5 shadow-md"
         style={{
           width: toggleSidebar ? "250px" : "100px",
           transition: "width 1s",

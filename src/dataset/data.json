@@ -5,8 +5,12 @@
     "amount": "1,543",
     "dollar_amount": "10,512",
     "realized_pnl": "9,001",
+    "realized_pnl_percent": "12.5%",
     "unrealized_pnl": "11,314",
-    "total_pnl": "20,315"
+    "unrealized_pnl_percent": "9.5%",
+    "total_pnl": "20,315",
+    "total_pnl_percent": "23.4%",
+    "logo": "https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=024"
   },
   {
     "asset": "AUR",
@@ -14,8 +18,12 @@
     "amount": "1,543",
     "dollar_amount": "10,512",
     "realized_pnl": "9,001",
+    "realized_pnl_percent": "12.5%",
     "unrealized_pnl": "11,314",
-    "total_pnl": "20,315"
+    "unrealized_pnl_percent": "9.5%",
+    "total_pnl": "19,025",
+    "total_pnl_percent": "23.4%",
+    "logo": "https://cryptologos.cc/logos/aurora-aoa-logo.svg?v=024"
   },
   {
     "asset": "BCH",
@@ -23,8 +31,12 @@
     "amount": "1,543",
     "dollar_amount": "10,512",
     "realized_pnl": "9,001",
+    "realized_pnl_percent": "12.5%",
     "unrealized_pnl": "11,314",
-    "total_pnl": "20,315"
+    "unrealized_pnl_percent": "9.5%",
+    "total_pnl": "12,315",
+    "total_pnl_percent": "23.4%",
+    "logo": "https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg?v=024"
   },
   {
     "asset": "XDG",
@@ -32,8 +44,12 @@
     "amount": "1,543",
     "dollar_amount": "10,512",
     "realized_pnl": "9,001",
+    "realized_pnl_percent": "12.5%",
     "unrealized_pnl": "11,314",
-    "total_pnl": "20,315"
+    "unrealized_pnl_percent": "9.5%",
+    "total_pnl": "1,415",
+    "total_pnl_percent": "23.4%",
+    "logo": "https://cryptologos.cc/logos/dogecoin-doge-logo.svg?v=024"
   },
   {
     "asset": "ETH",
@@ -41,7 +57,11 @@
     "amount": "1,543",
     "dollar_amount": "10,512",
     "realized_pnl": "9,001",
+    "realized_pnl_percent": "12.5%",
     "unrealized_pnl": "11,314",
-    "total_pnl": "20,315"
+    "unrealized_pnl_percent": "9.5%",
+    "total_pnl": "19,315",
+    "total_pnl_percent": "23.4%",
+    "logo": "https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=024"
   }
 ]
